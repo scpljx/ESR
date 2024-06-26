@@ -8,7 +8,7 @@ Pytorch implementation of eSR.
 
 ## $\alpha$-EntMax Separation and Reactivation
 > (a) This work introduces a significant improvement in the feature separation mechanism by incorporating α-EntMax instead of traditional binary masks. This enhancement not only increases the flexibility in managing feature sparsity but also bolsters the model’s ability to identify and utilize robust features    through adaptive sparsity
-(b) By employing the Binary Cross-Entropy (BCE with Logits) loss function, the training process of the model is finely tuned, specifically targeting the optimization of separated features and their reactivated relationships. This not only boosts the model’s adaptability in dealing with complex adversarial samples but also enhances prediction accuracy by optimizing the recovery of non-robust features.
+>(b) By employing the Binary Cross-Entropy (BCE with Logits) loss function, the training process of the model is finely tuned, specifically targeting the optimization of separated features and their reactivated relationships. This not only boosts the model’s adaptability in dealing with complex adversarial samples but also enhances prediction accuracy by optimizing the recovery of non-robust features.
 
 
 ## Setup
